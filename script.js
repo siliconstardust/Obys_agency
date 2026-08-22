@@ -15,10 +15,10 @@ t1.from("#line1-part1",{
     var grow = 0
     setInterval(function(){
     if(grow<100){
-        grow++
-        h5timer.innerHTML = grow++
+        grow++;
+        h5timer.innerHTML = grow;
     }else{
-       h5timer.innerHTML = grow
+       h5timer.innerHTML = grow;
     }
 },35)
     }
@@ -36,7 +36,7 @@ t1.from("#page1",{
     delay:0.2,
     y:1600,
     duration:0.6,
-    ease:Power4,
+    ease:"power4",
 })
 // t1.from("#page2",{
 //     delay:0.2,
