@@ -57,7 +57,7 @@ t1.from("#line1-part1",{
     }else{
        h5timer.innerHTML = grow;
     }
-},35)
+},27)
     }
 })
 t1.to('.line h2',{
